@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    border: 0px;
+    background-color: white;
+    font-family: cursive;
+}
+/*single box */
+.person {
+    border: 3px solid black;
+    justify-content: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.name p {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+#button {
+    height: 40px;
+    width: 100px;
+    background-color: goldenrod;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
